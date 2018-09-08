@@ -1,0 +1,31 @@
+.App {
+  padding-left: 10px;
+  font-family: 'Russo One', sans-serif;
+}
+
+.App > h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+.Metro__status {
+  display: inline-block;
+  text-transform: uppercase;
+  width: auto;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 10px 0;
+}
+
+.Metro__status--broken {
+  color: #e8c9d0;
+  background: #B24C63;
+  box-shadow: 5px 5px 15px 0 rgba(232, 201, 208, .9);
+}
+
+.Metro__status--working {
+  color: #b7e1c8;
+  background: #3BB273;
+  box-shadow: 5px 5px 15px 0 rgba(183, 225, 200, .9);
+}
